@@ -17,6 +17,7 @@ const page = () => {
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
+                key={course.id}
               >
                 {course.title}
               </CardItem>
